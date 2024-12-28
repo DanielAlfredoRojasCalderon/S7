@@ -1,0 +1,362 @@
+:root{
+    --color-principal: #2f80ed;
+    --color-secundario: #4f4f4f;
+    --color-negro: #000;
+    --color-blanco: #fff;
+    --color-gray: #828282;
+    --color-gris-claro: #f2f2f2;
+    /* tipo de letra */
+    --fuente-letra: "Montserrat", sans-serif;
+    --grid-oscuro:  #828282;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    font-family: var(--fuente-letra);
+    
+}
+body{
+    background-color: var(--color-gris-claro) !important;
+    justify-items: center;
+    padding-top: 2.5rem;
+    
+    
+}
+
+.grid-container{
+    @media (min-width: 20rem) {
+      
+        main{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            gap: 2rem;
+            height: 355rem;
+            
+        }
+        
+
+        .hobbiees{
+            background-color: white;
+            border-radius: 10px;
+            
+
+        }
+
+        .bloque1{
+            height: 305vh ;
+
+        }
+        .bloque2{
+            background-color: var(--color-gris-claro);
+            height: 300vh;
+            
+            
+        }
+        
+        
+        
+        .primerbloqueColumna2{
+            display: flex;
+            flex-direction: column;
+            height: 25%;
+            gap: 1.5rem;
+            background-color: var(--color-gris-claro);
+            
+        }
+        .grupoFront{
+            background-color: white;
+            border-radius: 0.5rem;
+            height: 87%;
+        }
+        .primerbloqueColumna2 progress{
+            width: 23vw;
+            height: 1.3rem;
+        
+        }
+        .primerbloqueColumna2 label{
+            font-size: 1.1rem;
+        }
+        .primerbloque-Segundo{
+            border-radius: 0.5rem;
+            background-color: white;
+            height: 11rem;
+            
+        }
+        
+        .textoIndependiente{
+            height: 4rem;
+            align-content: center;
+            background-color: white;
+            border-radius: 0.5rem;
+        
+        }
+        
+        .contenidoProjects{
+
+            display: flex;
+            flex-direction: column;
+            
+            
+        }
+        .imgProjects{
+            width: 100%;
+            
+            
+        }
+
+
+        .ultimoBloque{
+            display: flex;
+            flex-direction: column;
+            height: 50rem;
+            background-color: white;
+            border-radius: 0.5rem;
+        }
+        .imgultibloque{
+            width: 100%;
+            height: 40%;
+            
+        }
+        
+
+
+
+        img{
+            border-radius: 0.5rem;
+        }
+        
+        footer{
+            text-align: center;
+            margin-top: 3rem;
+            height: 4rem;
+        }
+        span{
+            font-weight: bold;
+        }
+        
+
+    }
+
+
+
+    @media (min-width: 50rem) {
+        main{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            width: 95%;
+            gap: 2rem;
+            height: 210rem;
+            
+        }
+
+        .hobbiees{
+            background-color: white;
+            border-radius: 10px;
+        }
+        .bloque2{
+            background-color: var(--color-gris-claro);
+            height: 60%;
+            
+        }
+        
+        
+        
+        
+        .primerbloqueColumna2{
+            display: flex;
+            flex-direction: column;
+            height: 25%;
+            gap: 1.5rem;
+            background-color: var(--color-gris-claro);
+            
+        }
+        .grupoFront{
+            background-color: white;
+            border-radius: 0.5rem;
+            height: 82%;
+        }
+        .primerbloqueColumna2 progress{
+            width: 25rem;
+            height: 1.3rem;
+        
+        }
+        .primerbloqueColumna2 label{
+            font-size: 1.1rem;
+        }
+        .primerbloque-Segundo{
+            border-radius: 0.5rem;
+            background-color: white;
+            height: 11rem;
+            
+        }
+        
+        .textoIndependiente{
+            height: 4rem;
+            align-content: center;
+            background-color: white;
+            border-radius: 0.5rem;
+        
+        }
+        
+        .contenidoProjects{
+
+            display: flex;
+            flex-direction: column;
+            
+            
+        }
+        .imgProjects{
+            width: 60%;
+            height: 20%;
+            
+        }
+
+
+        .ultimoBloque{
+            display: flex;
+            flex-direction: column;
+            height: 50rem;
+            background-color: white;
+            border-radius: 0.5rem;
+        }
+        .imgultibloque{
+            width: 100%;
+            height: 52%;
+            
+        }
+        
+
+
+
+        img{
+            border-radius: 0.5rem;
+        }
+        
+        footer{
+        
+            text-align: center;
+            margin-top: 3rem;
+            height: 4rem;
+        }
+        span{
+            font-weight: bold;
+        }
+
+
+    }
+
+
+    @media (min-width: 80rem) {
+        main{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            width: 95%;
+            gap: 2rem;
+            
+            height: 138rem;
+            
+            
+        }
+        
+        .hobbiees{
+            background-color: white;
+            border-radius: 10px;
+        }
+        .bloque2{
+            background-color: var(--color-gris-claro);
+            height: 80%;
+            
+        }
+        
+        
+        
+        .primerbloqueColumna2{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 20%;
+            gap: 1.5rem;
+            background-color: var(--color-gris-claro);
+        }
+        .grupoFront{
+            background-color: white;
+            border-radius: 0.5rem;
+            height: 100%;
+        }
+        .primerbloqueColumna2 progress{
+            width: 17rem;
+            height: 1.3rem;
+        
+        }
+        .primerbloqueColumna2 label{
+            font-size: 1.1rem;
+        }
+        .primerbloque-Segundo{
+            border-radius: 0.5rem;
+            background-color: white;
+            height: 11rem;
+            
+        }
+        
+        .textoIndependiente{
+            height: 4rem;
+            align-content: center;
+            background-color: white;
+            border-radius: 0.5rem;
+        
+        }
+
+        .contenidoProjects{
+
+            display: flex;
+            flex-direction: row;
+
+
+            
+        }
+        .imgProjects{
+            width: 40%;
+        }
+        
+        .ultimoBloque{
+            display: flex;
+            flex-direction: row;
+            height: 26rem;
+            background-color: white;
+            border-radius: 0.5rem;
+
+        }
+
+        .imgultibloque{
+            width: 50%;
+            height: 100%;
+        }
+        
+        img{
+            border-radius: 0.5rem;
+        }
+        
+        footer{
+        
+            text-align: center;
+            margin-top: 3rem;
+            height: 4rem;
+        }
+        span{
+            font-weight: bold;
+        }
+    
+    
+    }
+
+
+    
+
+
+}
+
+    
+
+    
+
